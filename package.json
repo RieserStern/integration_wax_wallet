@@ -72,11 +72,7 @@
     "jest-watch-typeahead": "^0.6.5"
   },
   "browser": {
-    "crypto": false
-  },
-  "resolve": {
-    "fallback": {
-      "crypto": false
-    }
+    "crypto": false,
+    "stream": false
   }
 }
