@@ -139,13 +139,10 @@ export const Dashboard = () => {
         style={{
           position: 'absolute', left: '50%', top: '50%',
           transform: 'translate(-50%, -50%)', padding: "20px 40px 20px 40px",
-          borderRadius: "0.375rem", backgroundColor: "white"
+          borderRadius: "0.375rem", backgroundColor: "#5bce5f"
         }}
       >
         <div style={{ textAlign: "center" }}>
-          <div className="logoImg" >
-            <img style={{ margin: "auto" }} src="/image/favicon.png"></img>
-          </div>
           <div className="logoText" >
             <h1>Avalon Guard</h1>
           </div>
